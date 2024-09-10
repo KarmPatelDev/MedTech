@@ -1,0 +1,63 @@
+/* #slogan{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4em;
+    align-items: center;
+    padding: 100px 5%;
+    
+} */
+.slogan-content{
+    max-width: 100vw;
+    justify-content: space-evenly;
+}
+.slogan-content h1{
+    font-weight: 600;
+    color: #1778F2;
+    font-size: 2.7rem;
+}
+.slogan-content h1 span{
+    color: red;
+    font-size: 2.7rem;
+}
+
+.slogan-content p{
+    margin: 20px 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.slogan-btn{
+    margin:2rem 0;
+}
+.slogan-btn .btn{
+    border: 2px solid #1778F2;
+    outline: none;
+    border-radius: 1rem;
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.slogan-image{
+    position: relative;
+    margin-left: 0 auto;
+    top: 0;
+    animation: updown 4.1s linear infinite;
+    
+}
+
+.img-box{
+  text-align: center;
+  box-shadow:0 0 0rem#12f2ff;
+}
+.img-box img{
+  width: 65rem;
+  height: 30em;
+  border-radius: 50%;
+}
